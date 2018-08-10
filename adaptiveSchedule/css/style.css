@@ -326,7 +326,7 @@ body {
   outline: none; }
 
 .schedule {
-  padding: 10px 20px 0; }
+  padding: 10px 20px; }
   .schedule h2 {
     margin: 0 0 50px;
     font-size: 32px;
@@ -408,7 +408,7 @@ body {
 
 @media (min-width: 768px) {
   .schedule {
-    padding: 10px 25px 0; }
+    padding: 10px 25px; }
     .schedule h2 {
       margin-bottom: 15px; }
     .schedule p {
@@ -469,7 +469,7 @@ body {
   .schedule {
     width: 1170px;
     margin: 0 auto;
-    padding: 0; }
+    padding: 10px; }
   .schedule-table {
     max-width: 1170px; }
   .schedule-table-header {
