@@ -1,0 +1,1 @@
+window.onload=function(){if((document.documentElement.clientWidth||document.body.clientWidth||window.innerWidth)<=768){document.querySelector(".schedule-table").addEventListener("click",function(e){e.target.classList.contains("schedule-table-item__subtitle")&&e.target.parentElement.classList.toggle("schedule-table-item--open")})}};
