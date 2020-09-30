@@ -8,37 +8,99 @@
   </head>
   <body>
     <main>
-      <section class="first-screen container"></section>
+      <div class="first-screen">
+        <div class="first-screen__video-wrapper">
+          <video
+            src="assets/1c121e3d589c9c6eef0d1e3f182e28f1.mp4"
+            class="first-screen__video"
+            autoplay
+            muted
+            preload="none"
+            loop
+          ></video>
+        </div>
+        <div class="first-screen__inner container">
+          <div class="first-screen__content container">
+            <div class="one">
+              <img loading="lazy" src="assets/2bd6752195c2d307b15fdcca06f80d43.svg" alt="" />
+              <h2>Онлайн-курси про навички XXI століття – для дітей та підлітків</h2>
+            </div>
+            <div class="two">
+              <img loading="lazy" src="assets/2bd6752195c2d307b15fdcca06f80d43.svg" alt="" />
+              <h2>
+                Ми перезапустили поняття онлайн-освіти і створили курси, які діти проходять із захопленням, як у грі
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="devices container">
+        <div class="devices__inner">
+          <div id="trigger-animation"></div>
+          <div class="devices__mockup">
+            <div
+              class="device imac"
+              data-aos="slide-down"
+              data-aos-offset="200"
+              data-aos-duration="700"
+              data-aos-anchor="#trigger-animation"
+            >
+              <div class="padding"></div>
+              <video src="assets/1c121e3d589c9c6eef0d1e3f182e28f1.mp4" autoplay muted preload="none" loop></video>
+            </div>
+            <div
+              class="device ipad"
+              data-aos="slide-right"
+              data-aos-offset="200"
+              data-aos-duration="700"
+              data-aos-anchor="#trigger-animation"
+            >
+              <div class="padding"></div>
+              <video src="assets/1c121e3d589c9c6eef0d1e3f182e28f1.mp4" autoplay muted preload="none" loop></video>
+            </div>
+            <div
+              class="device iphone"
+              data-aos="slide-left"
+              data-aos-offset="200"
+              data-aos-duration="700"
+              data-aos-anchor="#trigger-animation"
+            >
+              <div class="padding"></div>
+              <video src="assets/1c121e3d589c9c6eef0d1e3f182e28f1.mp4" autoplay muted preload="none" loop></video>
+            </div>
+          </div>
+        </div>
+      </div>
       <section class="features container">
         <ul class="features__list">
-          <li class="features__item feature">
-            <img src="assets/764d8b0c40623a66f4da62c24daba4ee.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/764d8b0c40623a66f4da62c24daba4ee.svg" class="feature__image" alt="" />
             <p class="feature__text">
               Комплексно розвиваємо найважливіші навички, вчимось знаходити рішення самостійно
             </p>
           </li>
-          <li class="features__item feature">
-            <img src="assets/14f0dace065f21d3e83637d710b4c62e.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/14f0dace065f21d3e83637d710b4c62e.svg" class="feature__image" alt="" />
             <p class="feature__text">
               Викладачі з топових бізнес-шкіл та компаній навчають тому, що самі використовують на практиці
             </p>
           </li>
-          <li class="features__item feature">
-            <img src="assets/41e938e07967f89b7be9cf0531ace9be.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/41e938e07967f89b7be9cf0531ace9be.svg" class="feature__image" alt="" />
             <p class="feature__text">
               Можна проходити в будь-який час, в своєму ритмі. Ми впевнені, наші курси стануть звичкою ;)
             </p>
           </li>
-          <li class="features__item feature">
-            <img src="assets/48f00429f96d103cf583e9b17ffcf7e9.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/48f00429f96d103cf583e9b17ffcf7e9.svg" class="feature__image" alt="" />
             <p class="feature__text">Інноваційний продукт, доступний онлайн, з будь-яких девайсів</p>
           </li>
-          <li class="features__item feature">
-            <img src="assets/438c58360bc98207b3363265cfc1714f.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/438c58360bc98207b3363265cfc1714f.svg" class="feature__image" alt="" />
             <p class="feature__text">Повноцінні відео-уроки з завданнями, які не нудно проходити, і нічого зайвого</p>
           </li>
-          <li class="features__item feature">
-            <img src="assets/d3e7966f8a316bad0389ff5dc7f6beae.svg" class="feature__image" alt="" />
+          <li class="features__item feature" data-aos="fade-in">
+            <img loading="lazy" src="assets/d3e7966f8a316bad0389ff5dc7f6beae.svg" class="feature__image" alt="" />
             <p class="feature__text">Проходження – як гра: виконуєш завдання, отримуєш бали, змагаєшся з іншими</p>
           </li>
         </ul>
@@ -52,15 +114,15 @@
             </h2>
             <ul class="steps__list">
               <li class="steps__item">
-                <img src="assets/c665b337d9ea00e81e08beeaa317b1b5.svg" alt="" />
+                <img loading="lazy" src="assets/c665b337d9ea00e81e08beeaa317b1b5.svg" alt="" />
                 <p>Обирай цікаву тобі тему</p>
               </li>
               <li class="steps__item">
-                <img src="assets/2aa00be83c4db1c2f7a84e70d15716c5.svg" alt="" />
+                <img loading="lazy" src="assets/2aa00be83c4db1c2f7a84e70d15716c5.svg" alt="" />
                 <p>Проходь перший рівень безкоштовно</p>
               </li>
               <li class="steps__item">
-                <img src="assets/da845e84d945d8ccb97973c4b3ca192d.svg" alt="" />
+                <img loading="lazy" src="assets/da845e84d945d8ccb97973c4b3ca192d.svg" alt="" />
                 <p>Якщо сподобалось – купуй повний курс</p>
               </li>
             </ul>
@@ -69,10 +131,10 @@
       </section>
       <section class="courses container">
         <ul class="courses__list">
-          <li class="courses__item course">
-            <img src="assets/24845352546635af4003f44ee0131b98.jpeg" class="course__image" alt="" />
+          <li class="courses__item course" data-aos="zoom-in">
+            <img loading="lazy" src="assets/24845352546635af4003f44ee0131b98.jpeg" class="course__image" alt="" />
             <div class="course__content">
-              <img src="assets/8d10cb65928eebd64270cf4690799994.png" class="course__icon" alt="" />
+              <img loading="lazy" src="assets/8d10cb65928eebd64270cf4690799994.png" class="course__icon" alt="" />
               <div>
                 <h4 class="course__heading">Основи підприємництва</h4>
                 <div class="course__captions">
@@ -82,10 +144,10 @@
               </div>
             </div>
           </li>
-          <li class="courses__item course">
-            <img src="assets/5cd476cda27375fb0f168cb35b504331.jpeg" class="course__image" alt="" />
+          <li class="courses__item course" data-aos="zoom-in">
+            <img loading="lazy" src="assets/5cd476cda27375fb0f168cb35b504331.jpeg" class="course__image" alt="" />
             <div class="course__content">
-              <img src="assets/c3f8af97714a3d3eaaafe9b760aaa757.png" class="course__icon" alt="" />
+              <img loading="lazy" src="assets/c3f8af97714a3d3eaaafe9b760aaa757.png" class="course__icon" alt="" />
               <div>
                 <h4 class="course__heading">Основи підприємництва</h4>
                 <div class="course__captions">
@@ -95,10 +157,10 @@
               </div>
             </div>
           </li>
-          <li class="courses__item course">
-            <img src="assets/32882c862eb5a9f38122bfa9c60a7f3b.jpeg" class="course__image" alt="" />
+          <li class="courses__item course" data-aos="zoom-in">
+            <img loading="lazy" src="assets/32882c862eb5a9f38122bfa9c60a7f3b.jpeg" class="course__image" alt="" />
             <div class="course__content">
-              <img src="assets/663b5f6ab93a9a6b313417d286d42448.png" class="course__icon" alt="" />
+              <img loading="lazy" src="assets/663b5f6ab93a9a6b313417d286d42448.png" class="course__icon" alt="" />
               <div>
                 <h4 class="course__heading">Тайм Менеджмент</h4>
                 <div class="course__captions">
@@ -110,28 +172,24 @@
           </li>
         </ul>
         <div class="courses__description">
-          <h3 class="courses__description-heading">
-            На курсах ми прокачуємо софт- і хард-скіли: навички XXI століття
-            <ul class="courses__skills-list">
-              <li class="courses__skills-item">⌛️ Запоруки ефективного тайм-менеджменту</li>
-              <li class="courses__skills-item">🎭 Cекрети створення презентацій і підготовки до захопливих виступів</li>
-              <li class="courses__skills-item">💬 Таємниці успішної комунікації з будь-ким</li>
-              <li class="courses__skills-item">🚀 Як створити стартап: від ідеї до реального бізнес-плану</li>
-            </ul>
-          </h3>
+          <h3 class="courses__description-heading">На курсах ми прокачуємо софт- і хард-скіли: навички XXI століття</h3>
+          <ul class="courses__skills-list">
+            <li class="courses__skills-item">⌛️ Запоруки ефективного тайм-менеджменту</li>
+            <li class="courses__skills-item">🎭 Cекрети створення презентацій і підготовки до захопливих виступів</li>
+            <li class="courses__skills-item">💬 Таємниці успішної комунікації з будь-ким</li>
+            <li class="courses__skills-item">🚀 Як створити стартап: від ідеї до реального бізнес-плану</li>
+          </ul>
         </div>
       </section>
-      <section class="cta">
-        <div class="container">
-          <div class="cta__inner">
-            <img src="assets/a3a4284d3ba3dcaab273aa9cdd3c5718.svg" class="cta__image" alt="" />
-            <h2 class="cta__heading">Зареєструйся, щоб отримати безкоштовні пробні уроки</h2>
-            <p class="cta__description">
-              Одразу після реєстрації можна пройти пробне зайняття у кожному онлайн-курсі: познайомитись з викладачем,
-              темою, форматом навчання і зрозуміти – чи хочеться пройти до кінця
-            </p>
-            <div class="cta__buttons"></div>
-          </div>
+      <section class="cta container">
+        <div class="cta__inner">
+          <img loading="lazy" src="assets/a3a4284d3ba3dcaab273aa9cdd3c5718.svg" class="cta__image" alt="" />
+          <h2 class="cta__heading">Зареєструйся, щоб отримати безкоштовні пробні уроки</h2>
+          <p class="cta__description">
+            Одразу після реєстрації можна пройти пробне зайняття у кожному онлайн-курсі: познайомитись з викладачем,
+            темою, форматом навчання і зрозуміти – чи хочеться пройти до кінця
+          </p>
+          <div class="cta__buttons"></div>
         </div>
       </section>
     </main>
