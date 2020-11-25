@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ui/static/css/main.9d5fa3ff.chunk.css",
-    "main.js": "/ui/static/js/main.04c6f403.chunk.js",
-    "main.js.map": "/ui/static/js/main.04c6f403.chunk.js.map",
+    "main.css": "/ui/static/css/main.82c93fd3.chunk.css",
+    "main.js": "/ui/static/js/main.6682a3f4.chunk.js",
+    "main.js.map": "/ui/static/js/main.6682a3f4.chunk.js.map",
     "runtime-main.js": "/ui/static/js/runtime-main.b9022324.js",
     "runtime-main.js.map": "/ui/static/js/runtime-main.b9022324.js.map",
-    "static/js/2.4ee7b6b4.chunk.js": "/ui/static/js/2.4ee7b6b4.chunk.js",
-    "static/js/2.4ee7b6b4.chunk.js.map": "/ui/static/js/2.4ee7b6b4.chunk.js.map",
+    "static/js/2.92100813.chunk.js": "/ui/static/js/2.92100813.chunk.js",
+    "static/js/2.92100813.chunk.js.map": "/ui/static/js/2.92100813.chunk.js.map",
     "static/js/3.4856e62d.chunk.js": "/ui/static/js/3.4856e62d.chunk.js",
     "static/js/3.4856e62d.chunk.js.map": "/ui/static/js/3.4856e62d.chunk.js.map",
     "index.html": "/ui/index.html",
-    "static/css/main.9d5fa3ff.chunk.css.map": "/ui/static/css/main.9d5fa3ff.chunk.css.map",
-    "static/js/2.4ee7b6b4.chunk.js.LICENSE.txt": "/ui/static/js/2.4ee7b6b4.chunk.js.LICENSE.txt",
+    "static/css/main.82c93fd3.chunk.css.map": "/ui/static/css/main.82c93fd3.chunk.css.map",
+    "static/js/2.92100813.chunk.js.LICENSE.txt": "/ui/static/js/2.92100813.chunk.js.LICENSE.txt",
     "static/media/checkbox-icon.ca5162ae.svg": "/ui/static/media/checkbox-icon.ca5162ae.svg",
     "static/media/edit-portfolio-icon.38745b5e.svg": "/ui/static/media/edit-portfolio-icon.38745b5e.svg",
     "static/media/excel.deb88654.svg": "/ui/static/media/excel.deb88654.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b9022324.js",
-    "static/js/2.4ee7b6b4.chunk.js",
-    "static/css/main.9d5fa3ff.chunk.css",
-    "static/js/main.04c6f403.chunk.js"
+    "static/js/2.92100813.chunk.js",
+    "static/css/main.82c93fd3.chunk.css",
+    "static/js/main.6682a3f4.chunk.js"
   ]
 }
